@@ -39,7 +39,7 @@ class BlogController extends Controller
         return view('admin.blog',[
             'datas' => $all_data,
             'title' => 'Blog Entry',
-            'data' => $user
+            
         ]);
 
     
